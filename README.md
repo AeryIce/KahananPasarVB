@@ -1,0 +1,2 @@
+# KahananPasarVB
+Analisa Pasar
