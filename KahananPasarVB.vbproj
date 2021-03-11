@@ -77,10 +77,23 @@
       <DependentUpon>FormDashboard.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FormLoading.Designer.vb">
+      <DependentUpon>FormLoading.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormLoading.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMsgBox.Designer.vb">
+      <DependentUpon>FormMsgBox.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormMsgBox.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -96,6 +109,12 @@
   <ItemGroup>
     <EmbeddedResource Include="FormDashboard.resx">
       <DependentUpon>FormDashboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLoading.resx">
+      <DependentUpon>FormLoading.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMsgBox.resx">
+      <DependentUpon>FormMsgBox.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
